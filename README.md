@@ -32,3 +32,9 @@ A continuación se adjuntan imágenes de los diferentes estados del tablero a me
 * Etapa 2: Monitoreo y Operaciones: Se realiza un monitoreo continuo del software en producción para detectar posibles problemas y garantizar un rendimiento óptimo.
 * Etapa 3: Actualizaciones y Mantenimiento: Se aplican actualizaciones, correcciones de errores y mejoras en el software en producción de acuerdo con las necesidades del negocio y los requisitos del usuario.
 
+## Por que usar SonarQube (///Revisar)
+SonarQube es una herramienta de codigo estatico, que se utiliza para detectar y corregir problemas de seguridad, bugs, vulnerabilidades y problemas de código en general, así como medir la calidad y complejidad del código fuente. 
+Al ser de codigo abierto esto le da una gran ventaja debido a que tiene una comunidad grande, donde se puede consultar los problemas. Y es muy facil de usar.
+
+## Por que usar Github Action (///Revisar)
+GitHub Action es la herramienta que decidimos usar en CI debido a que era facil de usar, y su integracion era bastante sensilla y como esta integrado directamente en la plataforma de GitHub, lo que simplifica la configuración y gestión de los flujos de trabajo.
