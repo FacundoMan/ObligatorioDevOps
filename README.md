@@ -50,4 +50,4 @@ Para el trabajo de desarrollo utilizamos la estrategia GitFlow, diviendo así nu
 
 A continuación se detalla el diagrama de ramas utilizado:
 
-![Diagrama Estrategia de Ramas](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/GitFlow.png)
+![Diagrama Estrategia de Ramas](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/GitFLow.png)
