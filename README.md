@@ -36,6 +36,17 @@ A continuación se adjuntan imágenes de los diferentes estados del tablero a me
 
 SonarQube es una herramienta de análisis de código estático que permite identificar y solucionar problemas de seguridad, errores, vulnerabilidades y otros problemas de código en general. Además, proporciona mediciones de calidad y complejidad del código fuente. Una de las ventajas significativas de SonarQube es que es de código abierto, lo que significa que cuenta con una comunidad amplia donde es posible consultar y discutir sobre los problemas encontrados. Esta característica también contribuye a su facilidad de uso, ya que se beneficia de la colaboración y la experiencia colectiva de desarrolladores de todo el mundo.
 
+# Análisis de código estático
+
+En primer lugar se analizó la aplicación de frontend hecha en React.
+En el análisis se detectó un code smell y cuatro security hotspots. Un code smell indica una posible debilidad o mala práctica en el diseño o implementación del código, lo que sugiere la necesidad de una mejora en el mismo. Por otro lado, los security hotspots señalan áreas que podrían presentar vulnerabilidades de seguridad, requiriendo una atención especial para evitar posibles ataques. Sería recomendable solucionar estos problemas para mejorar la calidad del código y reducir los riesgos en el software.
+
+![Análisis de código para el frontend](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/sonarcloud-frontend.png)
+
+Luego se analizaron las 4 aplicaciones de backend, obteniéndose los siguientes resultados:
+
+![Análisis de código para products](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/sonarcloud-products.png)
+
 ## Por qué usar Github Action
 
 GitHub Actions es la herramienta que elegimos utilizar para la integración continua (CI) debido a su facilidad de uso y su integración directa en la plataforma de GitHub. Esta característica simplifica la configuración y gestión de los flujos de trabajo. Al estar estrechamente integrado con GitHub, permite una colaboración fluida y un seguimiento de los cambios realizados en el repositorio. Además, GitHub Actions ofrece una amplia variedad de acciones predefinidas y personalizables que facilitan la automatización de tareas comunes en el desarrollo de software.
