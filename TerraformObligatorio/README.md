@@ -1,0 +1,1 @@
+Para desplegar el ECR primero hay que desplegar un S3 bucket
