@@ -10,6 +10,7 @@ Para la utilización del tablero Kanban se optó por la herramienta ClickUp. Se 
 A continuación se adjuntan imágenes de los diferentes estados del tablero a medida que transcurre la realización del proyecto.
 
 ![Tablero Kanban](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/TableroKanban.PNG)
+![Tablero Kanban Semana 2](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/kabnan-semana-2.png)
 
 # Análisis ciclos CD/ CI
 
