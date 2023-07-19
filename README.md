@@ -89,7 +89,7 @@ Se obtuvieron los siguientes resultados:
 
 ![Resultados de ligthhouse para planets](./Imagenes/lighthouse-planets.png)
 
-Como resultado, se puede decir que la aplicación cumple ampliamente las espectativas de una aplicación frontend en términos de performance, accesibilidad y buenas prácticas. Siendo el SEO el punto a mejorar en las tres secciones de la misma.
+Como resultado, se puede decir que la aplicación cumple ampliamente las expectativas de una aplicación frontend en términos de performance, accesibilidad y buenas prácticas. Siendo el SEO el punto a mejorar en las tres secciones de la misma.
 
 Si vamos a la sección de SEO que proporciona lighthouse, podemos ver el siguiente detalle:
 
