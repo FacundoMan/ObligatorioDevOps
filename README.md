@@ -51,6 +51,12 @@ Products MS
 Orders MS
 ![Análisis de código para orders](./Imagenes/sonarcloud-orders.png)
 
+Shipping MS
+![Análisis de código para shipping](./Imagenes/sonarcloud-shipping.png)
+
+Payments MS
+![Análisis de código para shipping](./Imagenes/sonarcloud-payments.png)
+
 ## Por qué usar Github Action
 
 GitHub Actions es la herramienta que elegimos utilizar para la integración continua (CI) debido a su facilidad de uso y su integración directa en la plataforma de GitHub. Esta característica simplifica la configuración y gestión de los flujos de trabajo. Al estar estrechamente integrado con GitHub, permite una colaboración fluida y un seguimiento de los cambios realizados en el repositorio. Además, GitHub Actions ofrece una amplia variedad de acciones predefinidas y personalizables que facilitan la automatización de tareas comunes en el desarrollo de software.
