@@ -9,8 +9,8 @@ Para la utilización del tablero Kanban se optó por la herramienta ClickUp. Se 
 
 A continuación se adjuntan imágenes de los diferentes estados del tablero a medida que transcurre la realización del proyecto.
 
-![Tablero Kanban](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/TableroKanban.PNG)
-![Tablero Kanban Semana 2](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/kabnan-semana-2.png)
+![Tablero Kanban](./Imagenes/TableroKanban.PNG)
+![Tablero Kanban Semana 2](./Imagenes/kabnan-semana-2.png)
 
 # Análisis ciclos CD/ CI
 
@@ -41,11 +41,15 @@ SonarQube es una herramienta de análisis de código estático que permite ident
 En primer lugar se analizó la aplicación de frontend hecha en React.
 En el análisis se detectó un code smell y cuatro security hotspots. Un code smell indica una posible debilidad o mala práctica en el diseño o implementación del código, lo que sugiere la necesidad de una mejora en el mismo. Por otro lado, los security hotspots señalan áreas que podrían presentar vulnerabilidades de seguridad, requiriendo una atención especial para evitar posibles ataques. Sería recomendable solucionar estos problemas para mejorar la calidad del código y reducir los riesgos en el software.
 
-![Análisis de código para el frontend](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/sonarcloud-frontend.png)
+![Análisis de código para el frontend](./Imagenes/sonarcloud-frontend.png)
 
 Luego se analizaron las 4 aplicaciones de backend, obteniéndose los siguientes resultados:
 
-![Análisis de código para products](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/sonarcloud-products.png)
+Products MS
+![Análisis de código para products](./Imagenes/sonarcloud-products.png)
+
+Orders MS
+![Análisis de código para orders](./Imagenes/sonarcloud-orders.png)
 
 ## Por qué usar Github Action
 
@@ -61,4 +65,4 @@ Para el trabajo de desarrollo utilizamos la estrategia GitFlow, diviendo así nu
 
 A continuación se detalla el diagrama de ramas utilizado:
 
-![Diagrama Estrategia de Ramas](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/GitFLow.png)
+![Diagrama Estrategia de Ramas](./Imagenes/GitFLow.png)
