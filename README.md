@@ -32,9 +32,9 @@ A continuación se adjuntan imágenes de los diferentes estados del tablero a me
 - Etapa 2: Monitoreo y Operaciones: Se realiza un monitoreo continuo del software en producción para detectar posibles problemas y garantizar un rendimiento óptimo.
 - Etapa 3: Actualizaciones y Mantenimiento: Se aplican actualizaciones, correcciones de errores y mejoras en el software en producción de acuerdo con las necesidades del negocio y los requisitos del usuario.
 
-## Por qué usar SonarQube
+## Por qué usar SonarCloud
 
-SonarQube es una herramienta de análisis de código estático que permite identificar y solucionar problemas de seguridad, errores, vulnerabilidades y otros problemas de código en general. Además, proporciona mediciones de calidad y complejidad del código fuente. Una de las ventajas significativas de SonarQube es que es de código abierto, lo que significa que cuenta con una comunidad amplia donde es posible consultar y discutir sobre los problemas encontrados. Esta característica también contribuye a su facilidad de uso, ya que se beneficia de la colaboración y la experiencia colectiva de desarrolladores de todo el mundo.
+SonarCloud es una herramienta de análisis de código estático que permite identificar y solucionar problemas de seguridad, errores, vulnerabilidades y otros problemas de código en general. Además, proporciona mediciones de calidad y complejidad del código fuente. Una de las ventajas significativas de SonarCloud es que es de código abierto, lo que significa que cuenta con una comunidad amplia donde es posible consultar y discutir sobre los problemas encontrados. Esta característica también contribuye a su facilidad de uso, ya que se beneficia de la colaboración y la experiencia colectiva de desarrolladores de todo el mundo.
 
 # Análisis de código estático
 
