@@ -32,7 +32,7 @@ A continuación se adjuntan imágenes de los diferentes estados del tablero a me
 - Etapa 2: Monitoreo y Operaciones: Se realiza un monitoreo continuo del software en producción para detectar posibles problemas y garantizar un rendimiento óptimo.
 - Etapa 3: Actualizaciones y Mantenimiento: Se aplican actualizaciones, correcciones de errores y mejoras en el software en producción de acuerdo con las necesidades del negocio y los requisitos del usuario.
 
-## Por qué usar SonarCloud
+# Por qué usar SonarCloud
 
 SonarCloud es una herramienta de análisis de código estático que permite identificar y solucionar problemas de seguridad, errores, vulnerabilidades y otros problemas de código en general. Además, proporciona mediciones de calidad y complejidad del código fuente. Una de las ventajas significativas de SonarCloud es que es de código abierto, lo que significa que cuenta con una comunidad amplia donde es posible consultar y discutir sobre los problemas encontrados. Esta característica también contribuye a su facilidad de uso, ya que se beneficia de la colaboración y la experiencia colectiva de desarrolladores de todo el mundo.
 
@@ -60,7 +60,33 @@ Payments MS
 
 ![Análisis de código para shipping](./Imagenes/sonarcloud-payments.png)
 
-# Informe de calidad de código
+# Prueba sobre aplicación frontend utilizando Google Lighthouse
+
+Lighthouse es una herramienta de código abierto desarrollada por Google que audita la calidad y rendimiento de aplicaciones web. Proporciona informes detallados en áreas como rendimiento, accesibilidad, mejores prácticas y SEO. Se analizaron las 3 páginas de la aplicación frontend realizada en React: el home, la sección "planets" y la sección "people".
+
+Se obtuvieron los siguientes resultados:
+
+- Home
+
+![Resultados de ligthhouse para la home](./Imagenes/lighthouse-home.png)
+
+- People
+
+![Resultados de ligthhouse para people](./Imagenes/lighthouse-people.png)
+
+- Planets
+
+![Resultados de ligthhouse para planets](./Imagenes/lighthouse-planets.png)
+
+Como resultado, se puede decir que la aplicación cumple ampliamente las espectativas de una aplicación frontend en términos de performance, accesibilidad y buenas prácticas. Siendo el SEO el punto a mejorar en las tres secciones de la misma.
+
+Si vamos a la sección de SEO que proporciona lighthouse, podemos ver el siguiente detalle:
+
+![Detalle de lighthouse para SEO](./Imagenes/lighthouse-SEO.png)
+
+Como se menciona en el reporte, la página no cuenta con un meta description, lo que disminuye considerablemente su SEO. Tambien indica que el archivo robots.txt tiene errores, este archivo es utilizado para comunicar a los motores de búsqueda y otros rastreadores web cómo deben comportarse al acceder y rastrear las páginas.
+
+## Informe de calidad de código
 
 Se encontraron varios bugs, code smells y security hotspots. Los bugs detectados reflejan problemas funcionales que podrían afectar la estabilidad y el rendimiento de los sistemas. Por otro lado, los code smells identificados indican posibles debilidades y áreas de mejora en el diseño y la implementación del código. Asimismo, la presencia de diversos security hotspots resalta la necesidad de fortalecer las medidas de seguridad para prevenir posibles vulnerabilidades.
 
@@ -71,7 +97,7 @@ Algunas de las medidas que se podrían tomar para mejorar estos problemas son:
 - Realizar revisiones de código periódicas con el equipo para detectar problemas tempranamente y compartir buenas prácticas.
 - Implementar un enfoque de desarrollo seguro con análisis regulares para resolver los security hotspots y prevenir vulnerabilidades.
 
-## Por qué usar Github Action
+# Por qué usar Github Action
 
 GitHub Actions es la herramienta que elegimos utilizar para la integración continua (CI) debido a su facilidad de uso y su integración directa en la plataforma de GitHub. Esta característica simplifica la configuración y gestión de los flujos de trabajo. Al estar estrechamente integrado con GitHub, permite una colaboración fluida y un seguimiento de los cambios realizados en el repositorio. Además, GitHub Actions ofrece una amplia variedad de acciones predefinidas y personalizables que facilitan la automatización de tareas comunes en el desarrollo de software.
 
