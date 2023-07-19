@@ -39,23 +39,37 @@ SonarCloud es una herramienta de análisis de código estático que permite iden
 # Análisis de código estático
 
 En primer lugar se analizó la aplicación de frontend hecha en React.
-En el análisis se detectó un code smell y cuatro security hotspots. Un code smell indica una posible debilidad o mala práctica en el diseño o implementación del código, lo que sugiere la necesidad de una mejora en el mismo. Por otro lado, los security hotspots señalan áreas que podrían presentar vulnerabilidades de seguridad, requiriendo una atención especial para evitar posibles ataques. Sería recomendable solucionar estos problemas para mejorar la calidad del código y reducir los riesgos en el software.
 
 ![Análisis de código para el frontend](./Imagenes/sonarcloud-frontend.png)
 
 Luego se analizaron las 4 aplicaciones de backend, obteniéndose los siguientes resultados:
 
 Products MS
+
 ![Análisis de código para products](./Imagenes/sonarcloud-products.png)
 
 Orders MS
+
 ![Análisis de código para orders](./Imagenes/sonarcloud-orders.png)
 
 Shipping MS
+
 ![Análisis de código para shipping](./Imagenes/sonarcloud-shipping.png)
 
 Payments MS
+
 ![Análisis de código para shipping](./Imagenes/sonarcloud-payments.png)
+
+# Informe de calidad de código
+
+Se encontraron varios bugs, code smells y security hotspots. Los bugs detectados reflejan problemas funcionales que podrían afectar la estabilidad y el rendimiento de los sistemas. Por otro lado, los code smells identificados indican posibles debilidades y áreas de mejora en el diseño y la implementación del código. Asimismo, la presencia de diversos security hotspots resalta la necesidad de fortalecer las medidas de seguridad para prevenir posibles vulnerabilidades.
+
+Algunas de las medidas que se podrían tomar para mejorar estos problemas son:
+
+- Establecer un Quality Gate personalizado en SonarCloud con criterios específicos para proyectos listos para producción.
+- Realizar tareas de refactorización para abordar los code smells identificados y mejorar la estructura y legibilidad del código.
+- Realizar revisiones de código periódicas con el equipo para detectar problemas tempranamente y compartir buenas prácticas.
+- Implementar un enfoque de desarrollo seguro con análisis regulares para resolver los security hotspots y prevenir vulnerabilidades.
 
 ## Por qué usar Github Action
 
