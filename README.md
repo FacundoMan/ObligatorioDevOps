@@ -60,6 +60,17 @@ Payments MS
 
 ![Análisis de código para shipping](./Imagenes/sonarcloud-payments.png)
 
+## Informe de calidad de código
+
+Se encontraron varios bugs, code smells y security hotspots. Los bugs detectados reflejan problemas funcionales que podrían afectar la estabilidad y el rendimiento de los sistemas. Por otro lado, los code smells identificados indican posibles debilidades y áreas de mejora en el diseño y la implementación del código. Asimismo, la presencia de diversos security hotspots resalta la necesidad de fortalecer las medidas de seguridad para prevenir posibles vulnerabilidades.
+
+Algunas de las medidas que se podrían tomar para mejorar estos problemas son:
+
+- Establecer un Quality Gate personalizado en SonarCloud con criterios específicos para proyectos listos para producción.
+- Realizar tareas de refactorización para abordar los code smells identificados y mejorar la estructura y legibilidad del código.
+- Realizar revisiones de código periódicas con el equipo para detectar problemas tempranamente y compartir buenas prácticas.
+- Implementar un enfoque de desarrollo seguro con análisis regulares para resolver los security hotspots y prevenir vulnerabilidades.
+
 # Prueba sobre aplicación frontend utilizando Google Lighthouse
 
 Lighthouse es una herramienta de código abierto desarrollada por Google que audita la calidad y rendimiento de aplicaciones web. Proporciona informes detallados en áreas como rendimiento, accesibilidad, mejores prácticas y SEO. Se analizaron las 3 páginas de la aplicación frontend realizada en React: el home, la sección "planets" y la sección "people".
@@ -85,17 +96,6 @@ Si vamos a la sección de SEO que proporciona lighthouse, podemos ver el siguien
 ![Detalle de lighthouse para SEO](./Imagenes/lighthouse-SEO.png)
 
 Como se menciona en el reporte, la página no cuenta con un meta description, lo que disminuye considerablemente su SEO. Tambien indica que el archivo robots.txt tiene errores, este archivo es utilizado para comunicar a los motores de búsqueda y otros rastreadores web cómo deben comportarse al acceder y rastrear las páginas.
-
-## Informe de calidad de código
-
-Se encontraron varios bugs, code smells y security hotspots. Los bugs detectados reflejan problemas funcionales que podrían afectar la estabilidad y el rendimiento de los sistemas. Por otro lado, los code smells identificados indican posibles debilidades y áreas de mejora en el diseño y la implementación del código. Asimismo, la presencia de diversos security hotspots resalta la necesidad de fortalecer las medidas de seguridad para prevenir posibles vulnerabilidades.
-
-Algunas de las medidas que se podrían tomar para mejorar estos problemas son:
-
-- Establecer un Quality Gate personalizado en SonarCloud con criterios específicos para proyectos listos para producción.
-- Realizar tareas de refactorización para abordar los code smells identificados y mejorar la estructura y legibilidad del código.
-- Realizar revisiones de código periódicas con el equipo para detectar problemas tempranamente y compartir buenas prácticas.
-- Implementar un enfoque de desarrollo seguro con análisis regulares para resolver los security hotspots y prevenir vulnerabilidades.
 
 # Por qué usar Github Action
 
