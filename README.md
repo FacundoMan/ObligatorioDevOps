@@ -116,16 +116,16 @@ A continuación se detalla el diagrama de ramas utilizado:
 ## Diagrama de flujo de CI/CD
 
 Nustro flujo de trabajos dejando de lado el versionado de la aplicacion consta de Test, Build y Deploy. Donde hacemos un test de codigo estatico con la herramienta SonarCloud, para verificar la calidad del codigo.
-Luego se hace una Build de la imagen que se aloja en un servicio de AWS, llamado ECR, donde luego se hace el deploy a un cluster de Kubernetes tambien de AWS.
+Luego se hace un build de la imagen que se aloja en un servicio de AWS, llamado ECR, donde luego se hace el deploy a un cluster de Kubernetes tambien de AWS.
 
-![Diagrama CICD](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/Diagrama%20CICD.png)
+![Diagrama CICD](./Imagenes/Diagrama%20CICD.png)
 
-## Solucion de la problematica 
+## Solucion de la problematica
 
-Para este problema el equipo se planteo las siguientes herramientas para poner en practica DevOps:
+Para este problema el equipo se planteó las siguientes herramientas para poner en práctica DevOps:
+
 - Github como control de versionado.
 - Terraform como insfraestructura como codigo.
 - SonarCloud como testing de codigo estatico.
 - AWS como contenedor y deploy de la aplicaciones e imagenes de la misma.
-- Github Action como herramienta de workflows.
-  
+- Github Actions como herramienta de workflows.

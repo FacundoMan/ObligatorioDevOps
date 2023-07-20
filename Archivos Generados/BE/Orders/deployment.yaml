@@ -20,3 +20,10 @@ spec:
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
+          env:
+            - name: PAYMENT_SERVICE
+              value: "http://abfdca1dd319f453b98685429ff4d417-1896863135.us-east-1.elb.amazonaws.com"
+            - name: SHIPPING_SERVICE
+              value: "http://a41213400f45a4f25864f6162eaea70c-1625216118.us-east-1.elb.amazonaws.com"
+            - name: PRODUCTS_SERVICE
+              value: "http://a81afd56394fc4a9d890d759051c666e-1416510889.us-east-1.elb.amazonaws.com"
