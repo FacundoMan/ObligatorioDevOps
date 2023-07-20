@@ -119,3 +119,13 @@ Nustro flujo de trabajos dejando de lado el versionado de la aplicacion consta d
 Luego se hace una Build de la imagen que se aloja en un servicio de AWS, llamado ECR, donde luego se hace el deploy a un cluster de Kubernetes tambien de AWS.
 
 ![Diagrama CICD](https://raw.githubusercontent.com/FacundoMan/ObligatorioDevOps/master/Imagenes/Diagrama%20CICD.png)
+
+## Solucion de la problematica 
+
+Para este problema el equipo se planteo las siguientes herramientas para poner en practica DevOps:
+- Github como control de versionado.
+- Terraform como insfraestructura como codigo.
+- SonarCloud como testing de codigo estatico.
+- AWS como contenedor y deploy de la aplicaciones e imagenes de la misma.
+- Github Action como herramienta de workflows.
+  
