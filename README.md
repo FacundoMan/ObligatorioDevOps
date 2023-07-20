@@ -118,4 +118,4 @@ A continuación se detalla el diagrama de ramas utilizado:
 Nustro flujo de trabajos dejando de lado el versionado de la aplicacion consta de Test, Build y Deploy. Donde hacemos un test de codigo estatico con la herramienta SonarCloud, para verificar la calidad del codigo.
 Luego se hace una Build de la imagen que se aloja en un servicio de AWS, llamado ECR, donde luego se hace el deploy a un cluster de Kubernetes tambien de AWS.
 
-![Diagrama CI/CD](./Imagenes/Diagrama CICD.png)
+![Tablero Kanban](./Imagenes/Diagrama CICD.png)
