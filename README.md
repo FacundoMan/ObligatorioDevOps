@@ -34,8 +34,7 @@ A continuación se adjuntan imágenes de los diferentes estados del tablero a me
 
 ## Diagrama de flujo de CI/CD
 
-Nustro flujo de trabajos dejando de lado el versionado de la aplicacion consta de Test, Build y Deploy. Donde hacemos un test de codigo estatico con la herramienta SonarCloud, para verificar la calidad del codigo.
-Luego se hace un build de la imagen que se aloja en un servicio de AWS, llamado ECR, donde luego se hace el deploy a un cluster de Kubernetes tambien de AWS.
+Nuestro flujo de trabajo, dejando de lado el versionado de la aplicación, consta de las etapas Test, Build y Deploy. Realizamos un test de código estático con la herramienta SonarCloud para verificar la calidad del código. Luego, construimos la imagen y la almacenamos en un servicio de AWS llamado ECR. Finalmente, desplegamos la imagen en un cluster de Kubernetes, también de AWS.
 
 ![Diagrama CICD](./Imagenes/Diagrama%20CICD.png)
 
