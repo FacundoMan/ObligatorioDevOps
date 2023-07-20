@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: obligatorio-be-orders-devops
+  labels:
+    app: orders-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: orders-app
+  template:
+    metadata:
+      labels:
+        app: orders-app
+    spec:
+      containers:
+        - name: orders-app
+          image: 206798921196.dkr.ecr.us-east-1.amazonaws.com/ecr_demo_obli:orders_devops
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080

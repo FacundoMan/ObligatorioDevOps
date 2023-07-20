@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: obligatoriofe
+  annotations:
+    kubernetes.io/ingress.class: "public-iks-k8s-nginx"
+    nginx.ingress.kubernetes.io/enable-cors: "true"
+    nginx.ingress.kubernetes.io/cors-allow-origin: "http://a17e591eca9784760b8d993b970cd477-564493003.us-east-1.elb.amazonaws.com"
+    nginx.ingress.kubernetes.io/cors-allow-methods: "GET, POST, OPTIONS"
+    nginx.ingress.kubernetes.io/cors-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+    nginx.ingress.kubernetes.io/cors-allow-credentials: "true"
+spec:
+  tls:
+    - hosts:
+        - ecr-demo-obli.us-east-1.elb.amazonaws.com
+      secretName: secret
+  rules:
+    - host: ecr-demo-obli.us-east-1.elb.amazonaws.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: ecr-demo-obli
+                port:
+                  number: 80

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: obligatorio-be-shipping-devops
+  labels:
+    app: shipping-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shipping-app
+  template:
+    metadata:
+      labels:
+        app: shipping-app
+    spec:
+      containers:
+        - name: shipping-app
+          image: 206798921196.dkr.ecr.us-east-1.amazonaws.com/ecr_demo_obli:shipping_devops
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: obligatorio-fe-devops
+  labels:
+    app: ecr-demo-obli
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ecr-demo-obli
+  template:
+    metadata:
+      labels:
+        app: ecr-demo-obli
+    spec:
+      containers:
+        - name: ecr-demo-obli
+          image: 206798921196.dkr.ecr.us-east-1.amazonaws.com/ecr_demo_obli:1.1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
