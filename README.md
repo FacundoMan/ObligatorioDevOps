@@ -32,6 +32,13 @@ A continuación se adjuntan imágenes de los diferentes estados del tablero a me
 - Etapa 2: Monitoreo y Operaciones: Se realiza un monitoreo continuo del software en producción para detectar posibles problemas y garantizar un rendimiento óptimo.
 - Etapa 3: Actualizaciones y Mantenimiento: Se aplican actualizaciones, correcciones de errores y mejoras en el software en producción de acuerdo con las necesidades del negocio y los requisitos del usuario.
 
+## Diagrama de flujo de CI/CD
+
+Nustro flujo de trabajos dejando de lado el versionado de la aplicacion consta de Test, Build y Deploy. Donde hacemos un test de codigo estatico con la herramienta SonarCloud, para verificar la calidad del codigo.
+Luego se hace un build de la imagen que se aloja en un servicio de AWS, llamado ECR, donde luego se hace el deploy a un cluster de Kubernetes tambien de AWS.
+
+![Diagrama CICD](./Imagenes/Diagrama%20CICD.png)
+
 # Por qué usar SonarCloud
 
 SonarCloud es una herramienta de análisis de código estático que permite identificar y solucionar problemas de seguridad, errores, vulnerabilidades y otros problemas de código en general. Además, proporciona mediciones de calidad y complejidad del código fuente. Una de las ventajas significativas de SonarCloud es que es de código abierto, lo que significa que cuenta con una comunidad amplia donde es posible consultar y discutir sobre los problemas encontrados. Esta característica también contribuye a su facilidad de uso, ya que se beneficia de la colaboración y la experiencia colectiva de desarrolladores de todo el mundo.
@@ -112,13 +119,6 @@ Para el trabajo de desarrollo utilizamos la estrategia GitFlow, diviendo así nu
 A continuación se detalla el diagrama de ramas utilizado:
 
 ![Diagrama Estrategia de Ramas](./Imagenes/GitFLow.png)
-
-## Diagrama de flujo de CI/CD
-
-Nustro flujo de trabajos dejando de lado el versionado de la aplicacion consta de Test, Build y Deploy. Donde hacemos un test de codigo estatico con la herramienta SonarCloud, para verificar la calidad del codigo.
-Luego se hace un build de la imagen que se aloja en un servicio de AWS, llamado ECR, donde luego se hace el deploy a un cluster de Kubernetes tambien de AWS.
-
-![Diagrama CICD](./Imagenes/Diagrama%20CICD.png)
 
 ## Solucion de la problematica
 
