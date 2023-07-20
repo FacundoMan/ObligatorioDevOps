@@ -1,3 +1,9 @@
+<div align="right">
+
+Facundo Mansilla - Matheo Titakis
+
+</div>
+
 # Tablero Kanban
 
 Para la utilización del tablero Kanban se optó por la herramienta ClickUp. Se crearon 4 columnas para clasificar las tareas dependiendo su estado:
